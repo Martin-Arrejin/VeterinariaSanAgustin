@@ -1,0 +1,78 @@
+
+body{
+    background-color: rgba(100, 83, 153, 0.2);
+ 
+    /* background-image: url('./img_veterinaria/perrito.jpg'); */
+}
+
+
+.tarjeta{
+    width: auto;
+    height: auto;
+    background-color:rgba(100, 83, 153, 0.9);
+    color:black;
+    border-radius: 20px;
+   
+}
+
+
+.boton_enviar{
+    padding: 10px;
+    border-color: rgba(100, 83, 153, 0.7);
+    background-color: #ffffff;
+    border-radius: 10px;
+    font-weight: bold;
+
+}
+.boton_enviar:hover{
+
+    padding: 10px;
+    color: #ffffff;
+    background-color: rgba(100, 83, 153, 0.7);
+    border-radius: 10px;
+    font-weight: bold;
+
+}
+/*estilo laravel*/ 
+
+body{
+    overflow-x:hidden;
+}
+
+/*<!-- Cabezera barra -->*/
+#barra{
+      
+    background-color: #645399;
+    
+}
+
+/*usuario interface */
+
+.barra_menu{
+    background-color:#ffffff;
+   font-size: 18px;
+
+}
+.barra_menu a{
+    color:#645399;
+}
+dropdown a:hover {
+    color:red;
+}
+
+
+
+
+
+
+
+
+/*Adaptación de pantalla media query */ 
+
+@media (max-width:900px)
+{
+    
+
+    
+}
+   
